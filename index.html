@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<header>
+   
+</header> 
+<main>
+    <section class="lg:container lg:mx-auto lg:px-8 lg:mt-[50px] mt-50px container mx-auto px-5 lg:mb-[100px] mb-[50px]" ><!--banner first-->
+        <div>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="lg:w-[566px] lg:h-[165px] lg:-mt-[200px] lg:ml-[600px] lg:relative">
+             <div class="bg-black p-[32px]  rounded-2xl ">
+                  <h1 class="text-2xl text-white">Meet all the heroes from the field</h1>
+                  <br>
+                  <p class="text-white -text-xl">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+             </div>
+        </div>
+    </section>
+    <!--End of first banner-->
+
+    <section class="lg:container lg:mx-auto lg:px-8 container mx-auto px-5">  <!--Second part--> 
+        <hr>
+       <h1 class= "mt-5 text-3xl text-center">Professional Hockeys Club</h1>
+       <br>
+       <p class= "mb-5 text-xl text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <hr>
+      <div class=" lg:my-[50px] grid lg:grid-cols-4 grid-cols-1 my-[50px]">
+        <div class="text-center my-[50px]">
+            <div class="radial-progress " style="--value:80;" role="progressbar">80%</div>
+            <h1 class="text-2xl">Training Ground</h1>
+            <br>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div class="text-center my-[50px]">
+            <div class="radial-progress " style="--value:87;" role="progressbar">87%</div>
+            <h1 class="text-2xl">Prayer Facility</h1>
+            <br>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div class="text-center my-[50px]">
+            <div class="radial-progress " style="--value:95;" role="progressbar">95%</div>
+            <h1 class="text-2xl">Experienced Coach</h1>
+            <br>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div class="text-center my-[50px]">
+            <div class="radial-progress " style="--value:90;" role="progressbar">90%</div>
+            <h1 class="text-2xl">Senior player</h1>
+            <br>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        
+      </div>
+
+    </section>
+
+    <section class="lg:container lg:mx-auto lg:px-8 container mx-auto px-5">
+        <hr>
+       <h1 class= "mt-5 text-3xl text-center">Program Sections</h1>
+       <br>
+       <p class= "mb-5 text-xl text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <hr> 
+        <!--grid picture-->
+        <div class="mt-[45px] lg:grid lg:grid-cols-2 "> <!--main div of grid-->
+            <div class="hero h-[388px] lg:mr-[8px] mt-[34px] " style="background-image: url(images/2.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Junior Programe</h1>
+                    <p class="mb-5">"Discover the joy of hockey in our junior program—where fun meets skill development for young aspiring players."</p>
+                    <button class="btn bg-[#FF4240] ">Get Started</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero h-[388px] lg:ml-[15px] mt-[34px]" style="background-image: url(images/3.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                    <p class="mb-5">"Elevate your game in our dynamic teenage hockey program, combining skill enhancement and team camaraderie for aspiring players.</p>
+                    <button class="btn bg-[#FF4240] ">Get Started</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero h-[388px] lg:ml-[] mt-[15px] lg:col-span-2" style="background-image: url(images/4.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 text-5xl font-bold lg:-ml-[700px] lg:mt-[130px]">Professional Program</h1>
+                    <p class="mb-5 lg:-ml-[880px] ">Join our elite hockey program for top-tier <br>coaching and unparalleled development  in <br> a professional and dynamic environment.</p>
+                    <button class="btn bg-[#FF4240] lg:-ml-[1060px] ">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+</main>      
+    
+</body>
+</html>
