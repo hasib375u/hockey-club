@@ -9,7 +9,42 @@
 </head>
 <body>
 <header>
-   
+   <nav class="container mx-auto">
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-semibold">
+                    <li><a class="text-red-700">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost text-3xl font-bold">Hockey’s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 font-semibold">
+                <li><a class="text-red-700">Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a class="btn bg-orange-700 text-white">Get Ticket</a>
+        </div>
+    </div>
+   </nav>
 </header> 
 <main>
     <section class="lg:container lg:mx-auto lg:px-8 lg:mt-[50px] mt-50px container mx-auto px-5 lg:mb-[100px] mb-[50px]" ><!--banner first-->
@@ -45,7 +80,7 @@
                 </div>
               </div>
         </div>
-        <div class="lg:w-[566px] lg:h-[165px] lg:-mt-[200px] lg:ml-[600px] lg:relative">
+        <div class="lg:w-[566px] lg:h-[165px] lg:translate-x-full lg:-translate-y-[212px] lg:relative">
              <div class="bg-black p-[32px]  rounded-2xl ">
                   <h1 class="text-2xl text-white">Meet all the heroes from the field</h1>
                   <br>
@@ -131,7 +166,7 @@
               </div>
         </div>
     </section>
-
+    
 </main>      
     
 </body>
